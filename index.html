@@ -21,13 +21,19 @@
     <main>
       <div class="hero-container">
         <img
-          src="/assets/desktop/image-hero-left.png"
+          class="hero-left"
+          src="/assets/desktop/image-hero-left.png goat"
           srcset="
             /assets/mobile/image-hero-left.png   375w,
-            /assets/tablet/image-hero-left.png   768w,
+            /assets/tablet/image-hero.png        768w,
             /assets/desktop/image-hero-left.png 1440w
           "
           alt="left image collage"
+        />
+        <img
+          src="/assets/tablet/image-hero.png"
+          alt="tablet image"
+          class="tab"
         />
         <div class="hero-text">
           <h1>Group chat for everyone</h1>
@@ -41,10 +47,10 @@
           </div>
         </div>
         <img
+          class="hero-right"
           src="/assets/desktop/image-hero-right.png"
           srcset="
             /assets/mobile/image-hero-right.png   375w,
-            /assets/tablet/image-hero-right.png   768w,
             /assets/desktop/image-hero-right.png 1440w
           "
           alt="Right image collage"
@@ -52,7 +58,7 @@
       </div>
       <div class="section-2">
         <span>
-          <div class="line"></div>
+          <span class="line"></span>
           <p class="circle-p">01</p>
         </span>
         <div class="image-container">
@@ -71,12 +77,9 @@
           <img src="/assets/desktop/image-man-texting.jpg" alt="Man texting" />
         </div>
         <div class="sub-text">
-          <h3 class="modernUseText">Built for modern use</h3>
-          <h2>
-            Smarter meetings, all <br />
-            in one place
-          </h2>
-          <p>
+          <h4 class="modernUseText">Built for modern use</h4>
+          <h2 class="sub-text-h2">Smarter meetings, all in one place</h2>
+          <p class="sub-text-p">
             Send messages, share files, show your screen, and record your
             meetings — all in one workspace. Control who can join with
             invite-only team access, data encryption, and data export.
@@ -84,17 +87,16 @@
         </div>
       </div>
     </main>
-    <span>02</span>
+    <span class="footer-top">02</span>
     <footer class="footer">
       <div class="img-background"></div>
       <div class="foot-text">
         <h3>Experience more together</h3>
         <p>
-          Stay connected with reliable HD meetings
-          <br />
-          and unlimited one-on-one and group video sessions.
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
         </p>
-        <button>Download v1.3</button>
+        <button class="btn-foot">Download v1.3</button>
       </div>
     </footer>
   </body>
