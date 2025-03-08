@@ -1,7 +1,7 @@
 
 # Frontend Mentor - Meet landing page solution
 
-This is a solution to the [https://vermillion-pothos-3c9249.netlify.app/](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [https://meetlandingx.netlify.app/](https://meetlandingx.netlify.app/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
